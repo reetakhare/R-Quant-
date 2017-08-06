@@ -7,6 +7,7 @@ library(ROI.plugin.quadprog)
 library(ROI.plugin.glpk)
 library(lattice)
 
+#Portfolio Optimization
 Perf <- function(Retn, wts=NULL)
 {
   rf = smallcapW[,"WeekRiskFree"]
